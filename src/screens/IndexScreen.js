@@ -26,9 +26,10 @@ const IndexScreen = () => {
 
 const styles = StyleSheet.create ({
     header_text: {
-        color: 'coral',
-        fontSize: 22,
-        alignSelf: 'center'
+        color: 'red',
+        fontSize: 30,
+        alignSelf: 'center',
+        marginBottom: 10,
     },
 })
 
