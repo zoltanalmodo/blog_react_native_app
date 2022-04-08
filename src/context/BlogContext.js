@@ -11,11 +11,9 @@ const blogReducer = (state, action) => {
 };
 
 const addBlogPost = (dispatch) => {
-
     return () => {
         dispatch({ type: 'addBlogPost' })
     };
-    
 };
 
 export const { Context, Provider } = createDataContext(
